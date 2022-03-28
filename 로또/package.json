@@ -1,7 +1,7 @@
 {
-  "name": "rsp-game",
+  "name": "lotto-gen",
   "version": "1.0.0",
-  "description": "webpack response check study",
+  "description": "webpack lotto generator study",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
