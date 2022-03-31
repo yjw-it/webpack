@@ -46,9 +46,10 @@ export default {
         border-collapse: collapse;
     }
     td {
-        border: 1px solid black;
+        border: 1px solid grey;
         width: 40px;
         height: 40px;
         text-align: center;
+        box-shadow: 1px 1px 1px 1px lightgray inset;
     }
 </style>

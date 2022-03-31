@@ -19,6 +19,11 @@
   import { CLICK_MINE, CODE, FLAG_CELL, NORMALIZE_CELL, OPEN_CELL, QUESTION_CELL } from './store';
 
   export default {
+    data(){
+        return {
+            classState: 'normal'
+        }
+    },
     computed: {
       ...mapState(['tableData', 'halted']),
       cellDataStyle(state) {
@@ -30,6 +35,9 @@
                 background: '#444',
               };
             case CODE.CLICKED_MINE:
+                return {
+                    background: 'red',
+                }
             case CODE.OPENED:
               return {
                 background: 'white',
@@ -37,7 +45,7 @@
             case CODE.FLAG:
             case CODE.FLAG_MINE:
               return {
-                background: 'red',
+                background: 'green',
               };
             case CODE.QUESTION:
             case CODE.QUESTION_MINE:
