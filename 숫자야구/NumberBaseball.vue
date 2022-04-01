@@ -37,7 +37,7 @@
         },
         methods:{
             onSubmitForm(){
-                alert('정답'+this.value+', 입력'+this.answer.join(''));
+                //alert('정답'+this.answer.join(''));
                 if(this.value===this.answer.join('')){
                     this.tries.push({
                         try: this.value,

@@ -1,7 +1,7 @@
 {
-  "name": "mine-game",
+  "name": "ticktek-tok",
   "version": "1.0.0",
-  "description": "지뢰찾기 게임",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --watch",
@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "vue": "^2.6.12",
+    "vue-router": "^3.0.7",
     "vuex": "^3.1.1"
   },
   "devDependencies": {
