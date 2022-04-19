@@ -55,6 +55,7 @@
                         this.answer = getNumbers();
                         this.tries=[];
                         this.$refs.answer.focus();
+                        return;
                     }
                     let strike = 0;
                     let ball = 0;
